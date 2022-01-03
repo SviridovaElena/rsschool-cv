@@ -1,1 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> My resume</title>
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--main containir-->
+        <main class="wrapper">
+            <aside class="sitebar">
+                <img class="myphoto" src="./img/photo.jpg" alt="My photo">
+                <!--Contacts container-->
+                <div class="contacts">
+                    <h3 class="contacts-titel">Contacts</h3>
+                    <div><span class="contacts-ladel">Tel:</span><a class="contacts-link" href="tel:+380965416459">+38 096 54 16 459</a>
+                    </div>
+                    <div><span class="contacts-ladel">Email:</span ><a class="contacts-link" href="emailto:sviridova.elena.konstantinovna@gmail.com">sviridova.elena.konstantinovna@gmail.com</a>
+                    </div>
+                    <div><span class="contacts-ladel">Github:</span ><a class="contacts-link" href="https://github.com/SviridovaElena">https://github.com/SviridovaElena</a>
+                    </div>
+                </div>
+                <!--Tech Skills container-->
+                <div>
+                    <h3 class="contacts-titel">Tech Skills</h3>
+                    <ul  class="skills">
+                        <li><span class="skills-text">CSS3</span></li>
+                        <li><span class="skills-text">HTML5</span></li>
+                        <li><span class="skills-text">JavaScript  (average)</span></li>
+                        <li><span class="skills-text">React (elementary)</span></li>
+                        <li><span class="skills-text">Bootstrap, Material UI (average)</span></li>
+                        <li><span class="skills-text">GIT</span></li>
+                    </ul>
+                </div>
+                <!--Soft Skills container-->
+                <div>
+                    <h3 class="contacts-titel">Soft Skills</h3>
+                    <ul class="skills">
+                        <li><span class="skills-text">Skram</span></li>
+                        <li><span class="skills-text">Egile</span></li>
+                        <li><span class="skills-text">GTD></span></li>
+                        <li><span class="skills-text">Teamwork</span></li>
+                    </ul>
+                </div>
+            </aside>
+            <!--about me container-->
+            <div class="about-me">
+                <header class="info">
+                    <h2 class="profession">Front-End Developer</h2>
+                    <h1 class="name">Sviridova Elena</h1>
+                    <p class="discription">I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas. 
+                    </p>
+                </header>
+                <!--projects container-->
+                <div>
+                    <h3 class="porojectstitel">Projects</h3>
+                    <ol>
+                        <li class="porojectstitel">
+                            <a class="projeckt-link" href="https://inspiring-almeida-cdb41f.netlify.app">https://inspiring-almeida-cdb41f.netlify.app______________________</a>
+                            <span class="projeckt-link"><b>[</b> HTML5, CSS3 <b>]</b></span>
+                            </li>
+                        <li class="porojectstitel">
+                            <a class="projeckt-link" href="https://infallible-lamarr-3f7d32.netlify.app">https://infallible-lamarr-3f7d32.netlify.app______________________</a> 
+                            <span class="projeckt-link"><b>[</b> JavaScript<b>]</b></span>
+                        </li>
+                    </ol>
+                </div>
+                <!--Expirience container-->
+                <div>
+                    <h3 class="porojectstitel">Code example</h3>
+                    <!--Company 1-->
+                    <div>
+                    <h4 class="prof-titel">Tetris prodject <span class="orange"> self-study</span> </h4>
+                        <pre class="work-item">
+                            <code>
+            function draw() {
+                let mainInnerHTML = "";
+                for (let y = 0; y &lt;playfield.length; y++) {
+                    for (let x = 0; x &lt; playfield[y].length; x++) {
+                        if (playfield[y][x] === 1) {
+                        mainInnerHTML += '&lt;div class="cell movingCell"&gt;&lt;/div&gt;';
+                        } else if (playfield[y][x] === 2) {
+                        mainInnerHTML += '&lt;div class="cell fixedCell"&gt;&lt;/div&gt;';
+                        } else {
+                        mainInnerHTML += '&lt;div class="cell"&gt;&lt;/div&gt;';
+                        }
+                    }
+                }
+                main.innerHTML = mainInnerHTML;
+            }
+                            </code>
+                        </pre>
+                    </div>
+                </div>    
+                <!--Education-->
+                <div>
+                    <h3 class="porojectstitel">Education</h3>
+                    <h4 class="prof-titel">Oles Honchar Dnipro National University</h4>
+                    <h5>System analist</h5>
+                    <span class="when">Septermber 2009 - June 2013<b> | </b> Ukrain</span>
+                    <h4 class="prof-titel">The Rolling Scopes School</h4>
+                    <span class="when">practice on js in progres<b> | </b>Online</span>
+                </div>
+                <footer>
+                    <a href="https://app.rs.school/"><img class="logo" src="img/rs_school_js.svg" alt="rs_scholl"></a>
+                    <p>© 2018 Gandalf</p>
+                </footer>
+            </div>
+        </main>
+    </body>
+</html>
+
 
